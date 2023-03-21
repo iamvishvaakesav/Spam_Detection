@@ -43,3 +43,7 @@ console.log("Difference :", tempSpam - tempReal);
 let isSpam = 0; // by default the isSpam flage is 0 i.e false
 
 // port.write(isSpam);
+
+setTimeout(function(){
+	   port.write(isSpam);},3000)
+
